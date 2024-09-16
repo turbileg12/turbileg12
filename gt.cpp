@@ -6,8 +6,9 @@ int main() {
 	int n;
 	cin >> n;
 
-	cout << "abc" << endl;
-	cout << "QWERTY" << endl;
+	for (int i = 1; i <= n; i++) {
+		cout << "number: " << i << endl;
+	}
 
 	return 0;
 }
