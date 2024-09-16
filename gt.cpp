@@ -6,8 +6,8 @@ int main() {
 	int n;
 	cin >> n;
 
-	if (n % 2 == 1) cout << "Sondgoi" << endl;
-	else cout << "Tegsh" << endl;
+	cout << "abc" << endl;
+	cout << "QWERTY" << endl;
 
 	return 0;
 }
