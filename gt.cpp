@@ -10,5 +10,7 @@ int main() {
 		cout << "number: " << i << endl;
 	}
 
+	cout << "successful" << endl;
+
 	return 0;
 }
