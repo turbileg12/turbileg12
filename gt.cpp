@@ -6,9 +6,8 @@ int main() {
 	int n;
 	cin >> n;
 
-	for (int i = 1; i <= n; i++) {
-		cout << i << endl;
-	}
+	if (n % 2 == 0) cout << "Tegsh" << endl;
+	else cout << "Sondgoi" << endl;
 
 	return 0;
 }
