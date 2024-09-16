@@ -2,15 +2,15 @@
 
 using namespace std;
 
+int is_prime(int n) {
+	return true;
+}
+
 int main() {
 	int n;
 	cin >> n;
 
-	for (int i = 1; i <= n; i++) {
-		if (i % 2 == 1) {
-			cout << i << endl;
-		}
-	}
+	cout << is_prime(n) << endl;
 
 	return 0;
 }
