@@ -7,10 +7,10 @@ int main() {
 	cin >> n;
 
 	for (int i = 1; i <= n; i++) {
-		cout << "number: " << i << endl;
+		if (i % 2 == 0) {
+			cout << i << endl;
+		}
 	}
 
-	cout << "successful" << endl;
-
-	retur 0;
+	return 0;
 }
